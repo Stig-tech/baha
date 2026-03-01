@@ -2767,7 +2767,7 @@ ul.icons li .icon:before {
 /* Contact */
 
 ul.contact li {
-	white-space: normal;
+	white-space: nowrap;
 }
 
 ul.contact {
@@ -2816,6 +2816,12 @@ ul.contact li:first-child {
 @media screen and (max-width: 736px) {
 	ul.contact li {
 		margin: 1.5em 0 0 0;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	ul.contact li {
+		white-space: normal;
 	}
 }
 
