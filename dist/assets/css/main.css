@@ -2767,7 +2767,7 @@ ul.icons li .icon:before {
 /* Contact */
 
 ul.contact li {
-    white-space: nowrap;
+	white-space: normal;
 }
 
 ul.contact {
