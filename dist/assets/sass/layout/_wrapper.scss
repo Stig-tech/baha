@@ -180,13 +180,19 @@
     .image {
       border-radius: 100%;
       margin: 0 _size(section-spacing, large) _size(element-margin) 0;
-      width: 22em;
+      width: 38em;
       overflow: hidden;
       -ms-flex: 1;
 
       img {
         border-radius: 100%;
         width: 100%;
+      }
+    }
+
+    @include breakpoint(">=xlarge") {
+      .image {
+        width: 44em;
       }
     }
 
